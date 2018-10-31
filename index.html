@@ -1,0 +1,367 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="">
+<!--<![endif]-->
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Spark Learning | Web-based Interactive Learning Object Publishing System</title>
+  <meta name="description" content="We are a Toronto-based startup focusing on the intersection of technology &amp; education. We provide consulting services &amp; develop world-class applications &amp; systems for Canadian educators &amp; organizations.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" type="image/png" href="favicon.ico" />
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="css/sparklearning.css">
+  <link href="https://fonts.googleapis.com/css?family=Nunito+Sans|Rubik|Metrophobic" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="js/slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="js/slick/slick-theme.css" />
+  <link rel="stylesheet" type="text/css" href="js/aos/aos.css" />
+  <link rel="stylesheet" type="text/css" href="css/font-awesome-4.7.0/css/font-awesome.min.css" />
+  <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+  <script>
+    (function(i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function() {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-98948076-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+</head>
+
+<body>
+  <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+  <!--
+  <div class="off-canvas">
+    <div class="main-nav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <ul class="navlist">
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="features.html">Features</a></li>
+        <li><a href="demos.html">Demos</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+        <li><a href="faqs.html">FAQs</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+-->
+  <div id="main-wrapper">
+    <div class="container">
+      <div id="header" class="nav-header">
+        <canvas id="canvas"></canvas>
+        <div class="nav-logo clearfix" data-aos="zoom-in">
+          <img class="logo-icon" src="img/spark_100x100_transparent.png" />
+          <h1 class="site-name">Spark Learning</h1>
+        </div>
+
+        <!--<button class="main-menu-button btn btn-default"><i class="fa fa-bars" aria-hidden="true"></i></button>-->
+      </div>
+
+      <div class="main-slider hidden-xs hidden-sm" data-aos="fade-in">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="main-slider-region">
+              <div class="mainslider-item">
+                <img class="responsive" src="img/mockup-2.jpg" />
+                <div class="slider-overlay">
+                  <h1>Create Interactive Learning Objects</h1>
+                  <p>Spark Learning is an online community platform that provides educators and organizations online tools to create compelling interactive learning objects.</p>
+                  <!--<p><a href="#" class="btn btn-default">Call to action</a></p>-->
+                </div>
+              </div>
+              <!--
+              <div class="mainslider-item">
+                <img class="responsive" src="img/mockup-2.jpg" />
+                <div class="slider-overlay">
+                  <h1>Interactive Learning Object Publishing</h1>
+                  <p>Spark Learning is an online community platform that provides educators and organizations online tools to create compelling interactive learning objects.</p>
+                </div>
+              </div>
+            -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="features-section">
+        <div class="row" data-aos="fade-up">
+          <h2 class="section-title">What is Spark?</h2>
+          <div class="col col-md-6">
+            <h3>Online Community Platform</h3>
+            <p>Spark provides a central location for your content creators to collaborate on eLearning projects. Your users can create learning objects, rate and provide feedback to eachothers work, find and share learning objects to use in their class,
+              post questions and answers in the private discussion board, and much more.</p>
+          </div>
+          <div class="col col-md-6">
+            <h3>Learning Object Publishing Platform</h3>
+            <p>Spark also provides tools for your users to create interactive learning objects. Using Spark, your users can take existing videos (including YouTube videos) and turn them into interactive videos with decision trees, quizzes, and other interactions.
+              They can also create immersive hot-spot images, interactive course presentations, and quizzes or feedback forms that can be easily embedded in their courses or websites.</p>
+          </div>
+          <!--<p class="text-center"><a href="features.html" class="btn btn-grey">View all features</a></p>-->
+        </div>
+      </div>
+
+
+
+      <div class="features-section">
+        <div class="row text-center" data-aos="fade-up">
+          <h2 class="section-title">Robust social features to bring your community to life</h2>
+          <div class="featured-item col-xs-6 col-md-4">
+            <img src="img/i_userpoints.png" />
+            <h4>User Points</h4>
+            <p>Members gain points for each interaction on the site.</p>
+          </div>
+          <div class="featured-item col-xs-6 col-md-4">
+            <img src="img/i_ratings.png" />
+            <h4>Content Ratings</h4>
+            <p>Users can rate eachothers content using a 10-star system.</p>
+          </div>
+          <div class="featured-item col-xs-6 col-md-4">
+            <img src="img/i_favs.png" />
+            <h4>Add to favourites</h4>
+            <p>Users can 'favourite' content on the site.</p>
+          </div>
+          <div class="featured-item col-xs-6 col-md-4">
+            <img src="img/i_comments.png" />
+            <h4>Commenting</h4>
+            <p>Easy to use commenting system to enable discussion.</p>
+          </div>
+          <div class="featured-item col-xs-6 col-md-4">
+            <img src="img/i_discussion.png" />
+            <h4>Discussion Board</h4>
+            <p>Your community can discuss, share ideas, and collaborate on projects in the private blogging system.</p>
+          </div>
+          <div class="featured-item col-xs-6 col-md-4">
+            <img src="img/i_tag.png" />
+            <h4>Simple tagging</h4>
+            <p>Simple #hashtag system to allow members to easily tag content.</p>
+          </div>
+          <div class="featured-item col-xs-6 col-md-4">
+            <img src="img/i_cat.png" />
+            <h4>Categories and Topics</h4>
+            <p>Content can be organized in categories that make sense to your organization.</p>
+          </div>
+          <div class="featured-item col-xs-6 col-md-4">
+            <img src="img/i_stats.png" />
+            <h4>Statistics</h4>
+            <p>Users can view how many times their content has been accessed.</p>
+          </div>
+          <div class="featured-item col-xs-6 col-md-4">
+            <img src="img/i_flag.png" />
+            <h4>Flagging and reporting</h4>
+            <p>Allow members to flag content for admins and moderators.</p>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="features-section">
+        <div class="row text-center" data-aos="fade-up">
+          <h2 class="section-title">Create interactive training and education content with ease</h2>
+          <div class="featured-item col-md-6">
+            <img src="img/i_video2.png" />
+            <h4>Interactive Videos</h4>
+            <p>Turn your existing videos into interactive learning objects by adding quizzes, text &amp; images, interactive summaries, and much more.</p>
+          </div>
+          <div class="featured-item col-md-6">
+            <img src="img/i_presentations.png" />
+            <h4>Presentations</h4>
+            <p>Create attention-keeping presentations that can include videos, quizzes, games, and Twitter feeds.</p>
+          </div>
+          <div class="featured-item col-md-6">
+            <img src="img/i_hotspot.png" />
+            <h4>Hot-Spot Images</h4>
+            <p>Turn an image into an interactive object by placing hotspots that, when clicked, displays images, texts, and videos.</p>
+          </div>
+          <div class="featured-item col-md-6">
+            <img src="img/i_questionset.png" />
+            <h4>Question Sets</h4>
+            <p>Create mini quizzes or surveys that you can embed in any web page or LMS.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="full-width-section dark-bg">
+        <div class="row" data-aos="zoom-in">
+          <div class="col-md-12 text-center">
+            <div class="btn-group">
+              <a href="https://stage.sparklearning.ca" class="btn btn-lg btn-block btn-outline" target="_blank">View Demo</a>
+              <a href="#request" class="btn btn-lg btn-block btn-outline">Request Demo</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="features-section">
+        <div class="row text-center" data-aos="fade-up">
+          <h2 class="section-title">More reasons to love Spark!</h2>
+          <div class="featured-item col-xs-6 col-md-4">
+            <img src="img/i_opensource.png" />
+            <h4>100% Open Source</h4>
+            <p>Spark is built on Open Source technologies, including Drupal &amp; H5P. We will also be releasing Spark as an open source project very shortly.</p>
+          </div>
+          <div class="featured-item col-xs-6 col-md-4">
+            <img src="img/i_metrics2.png" />
+            <h4>Collect Metrics</h4>
+            <p>All interactions are tracked and you can easily see the results of the interactions, including quiz score.</p>
+          </div>
+          <div class="featured-item col-xs-6 col-md-4">
+            <img src="img/i_embed.png" />
+            <h4>Embed Anywhere</h4>
+            <p>Create your content once, embed it anywhere - now any changes you make will automatically be shown everywhere you have embedded your content.</p>
+          </div>
+          <div class="featured-item col-xs-6 col-md-4">
+            <img src="img/i_responsive.png" />
+            <h4>Responsive Design</h4>
+            <p>Your content will look great on mobile and tablets right out of the box - no coding required.</p>
+          </div>
+          <div class="featured-item col-xs-6 col-md-4">
+            <img src="img/i_accessibility.png" />
+            <h4>Accessibility Standards Compliant</h4>
+            <p>We made great stides to comply to the AODA standards - Spark and the learning objects you create are WCAG 2.0 AA compliant.</p>
+          </div>
+          <div class="featured-item col-xs-6 col-md-4">
+            <img src="img/i_canada.png" />
+            <h4>Canadians Only</h4>
+            <p>Our products and services are catered to Canadian educators - We make our services and cloud products available only to Canadians. Not to mention or hosting is on 100% Canadian servers!</p>
+          </div>
+        </div>
+      </div>
+
+      <!--
+      <div class="full-width-section hidden">
+        <div class="row" data-aos="fade-up">
+          <div class="col-md-12 text-center">
+            <h2>Get a quote / Request a demo</h2>
+            <p>Our SaaS packages are tailored to meet your individual needs so to get the ball rolling, just send us some high-level details we’ll be in touch to talk through your requirements in more detail as soon as we can.</p>
+            <form class="form-horizontal" role="form">
+              <div class="form-group">
+                <div class="col-md-6">
+                  <label class="control-label" for="firstname">First Name *</label>
+                  <input type="text" class="form-control" id="firstname" name="firstname" placeholder="First Name" value="" required>
+                </div>
+                <div class="col-md-6">
+                  <label class="control-label" for="lastname">Last Name *</label>
+                  <input type="text" class="form-control" id="lastname" name="lastname" placeholder="Last Name" value="" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-md-6">
+                  <label class="control-label" for="email">Email *</label>
+                  <input type="text" class="form-control" id="email" name="email" placeholder="Business email address" value="" required>
+                </div>
+                <div class="col-md-6">
+                  <label class="control-label" for="phone">Phone *</label>
+                  <input type="text" class="form-control" id="phone" name="phone" placeholder="Phone number" value="" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-md-6">
+                  <label class="control-label" for="organization">Organization *</label>
+                  <input type="text" class="form-control" id="organization" name="organization" placeholder="Organization" value="" required>
+                </div>
+                <div class="col-md-6">
+                  <label class="control-label" for="typeoforg">Type of Organization *</label>
+                  <select class="form-control" id="typeoforg" required>
+                    <option disabled selected>Please choose one</option>
+                    <option>K-12 School</option>
+                    <option>College</option>
+                    <option>University</option>
+                    <option>Educational Organization</option>
+                    <option>Canadian public sector organization</option>
+                    <option>Educator, Instructor, or Trainer</option>
+                    <option>Other</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-md-6">
+                  <label class="control-label" for="numofusers">Number of Users *</label>
+                  <select class="form-control" id="numofusers" required>
+                    <option disabled selected>Please choose one</option>
+                    <option>Up to 10</option>
+                    <option>10 to 100</option>
+                    <option>100 to 500</option>
+                    <option>Over 500</option>
+                  </select>
+                </div>
+                <div class="col-md-6">
+                  <label class="control-label" for="refsource">How did you hear about us?</label>
+                  <select class="form-control" id="refsource">
+                    <option disabled selected>Please choose one</option>
+                    <option>Google Search</option>
+                    <option>Word of mouth</option>
+                    <option>Conference, Presentation, or Exhibition</option>
+                    <option>Other</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group hidden">
+                <div class="col-md-12">
+                  <label class="control-label" for="url">URL *</label>
+                  <input type="text" class="form-control" id="url" name="url">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-md-12">
+                  <label class="control-label" for="details">How do you want to use Spark? *</label>
+                  <textarea class="form-control" rows="3" id="details" placeholder="Tell us a little about how you’re looking to use Spark Learning." required></textarea>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-md-12">
+                  <button type="submit" class="btn btn-outline btn-lg btn-block">Send Details</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    -->
+      <footer>
+        <a name="request"></a>
+        <p class="text-center"><a class="btn btn-special" data-aos="zoom-in" href="mailto:hello@sparklearning.ca">hello@sparklearning.ca</a></p>
+        <p class="text-center">A big thank you to all the developers and designers that make Spark possible.</p>
+        <p class="text-center"><img src="img/canada.png" /> Proudly built in Toronto, Canada</p>
+        <p class="text-center fine-print">&copy; Spark Learning <span class="year"></span>. A <a href="https://northpixel.ca/" target="_blank">North Pixel</a> Project.</p>
+      </footer>
+    </div>
+    <!-- /container -->
+  </div>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script>
+    window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')
+  </script>
+  <script src="js/vendor/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/jquery.matchHeight-min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+  <script type="text/javascript" src="js/aos/aos.js"></script>
+  <script type="text/javascript" src="js/canvas-animation.js"></script>
+  <script type="text/javascript" src="js/slick/slick.min.js"></script>
+
+
+  <script>
+    AOS.init({
+      offset: 120,
+      duration: 350,
+      easing: 'ease-in-sine',
+      delay: 0,
+    });
+  </script>
+</body>
+
+</html>
